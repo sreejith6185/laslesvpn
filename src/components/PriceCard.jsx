@@ -1,7 +1,7 @@
 import React from 'react'
 import priceCardImg from '../assets/plan-icon.png'
 
-const Pricecard = (props) => {
+const PriceCard = (props) => {
 const{plan}=props;
   return (
     <div className="col-md-4 h-100">
@@ -30,4 +30,4 @@ const{plan}=props;
   )
 }
 
-export default Pricecard
+export default PriceCard

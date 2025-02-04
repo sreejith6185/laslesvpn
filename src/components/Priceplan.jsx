@@ -1,5 +1,5 @@
 import React from 'react'
-import Pricecard from './Pricecard'
+import PriceCard from './PriceCard'
 import { plans } from '../constants/plans'
 
 const Priceplan = () => {
@@ -18,7 +18,7 @@ const Priceplan = () => {
             </div>
             <div className="row g-xl-5 g-3">
                 {plans.map((plan, index)=>{
-                    return (<Pricecard key={index} plan={plan}/>)
+                    return (<PriceCard key={index} plan={plan}/>)
                 })}
             </div>
         </div>
