@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div className="container-xl py-2 border-top">
             <div className="copyright-text text-center small">
-                &copy;2020LaslesVPN
+                &copy;2025LaslesVPN
             </div>
         </div>
     </footer>

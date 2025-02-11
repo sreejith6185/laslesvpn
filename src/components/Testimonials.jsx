@@ -2,26 +2,29 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'; // Owl Carousel styles
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'; // Theme styles
+import Avatar1 from '../assets/avatar1.png';
+import Avatar2 from '../assets/avatar2.png';
+import Avatar3 from '../assets/avatar3.png';
 
 const TestimonialSlider = () =>{
     // Array of Testimonial objects
     const testimonials = [
         {
-            proPic : '/src/assets/avatar1.png',
+            proPic : Avatar1,
             author : 'Viezh Robert',
             place : 'Warsaw, Poland',
             rating : 4.5,
             text : 'Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best.'
         },
         {
-            proPic : '/src/assets/avatar2.png',
+            proPic : Avatar2,
             author : 'Yessica Christy',
             place : 'Shanxi, China',
             rating : 4.5,
             text : 'I like it because I like to travel far and still can connect with high speed.'
         },
         {
-            proPic : '/src/assets/avatar3.png',
+            proPic : Avatar3,
             author : 'Ruthy Lina',
             place : 'Brisbane, Australia',
             rating : 4.5,
